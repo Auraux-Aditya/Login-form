@@ -100,5 +100,21 @@ function ContactForm() {
 For more information, see the @formspree/react documentation at https://github.com/formspree/formspree-js/tree/master/packages/formspree-react and the Formspree React guide at https://help.formspree.io/hc/en-us/articles/360055613373-Formspree-React
 
 ---
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mjgqwbbw"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 
 Based on the tech stack, apply the matching guide above and suggest any needed code changes.
